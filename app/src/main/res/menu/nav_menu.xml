@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_item1"
+        android:icon="@drawable/home"
+        android:title="Home" />
+    <item
+        android:id="@+id/menu_item2"
+        android:icon="@drawable/account"
+        android:title="Profile" />
+    <item
+        android:id="@+id/menu_item3"
+        android:icon="@drawable/guru"
+        android:title="Guru"/>
+    <item
+        android:id="@+id/menu_item4"
+        android:icon="@drawable/siswa"
+        android:title="Siswa"/>
+    <!-- Add more items as needed -->
+</menu>

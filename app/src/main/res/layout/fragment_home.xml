@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="850dp"
+            android:src="@drawable/bgbatubata"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="Breaking News"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="335dp"
+            android:layout_marginTop="80dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardBreaking1"
+                android:layout_width="350dp"
+                android:layout_height="235dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/rus"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:text="Keikutsertaan SMK Raden Umar Sahid (RUS) Kudus di ajang Trade Expo Indonesia (TEI) ke-38."
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="335dp"
+            android:layout_marginTop="400dp"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardBreaking2"
+                android:layout_width="350dp"
+                android:layout_height="200dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="center"
+                app:cardElevation="5dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/russ"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="0dp"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                android:text="SMK RUS Kudus Pamerkan Realitas Virtual Mahakarya Vokasi di Grand City - TIMES Indonesia"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>
